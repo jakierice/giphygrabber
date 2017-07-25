@@ -1,7 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Anton|Cairo');
+
+/*
+font-family: 'Cairo', sans-serif;
+font-family: 'Anton', sans-serif;
+*/
+
 html, body {
     margin: 0px auto;
     width: 100%;
     height: 100%;
+    font-family: 'Cairo', sans-serif;
 }
 
 #header {
@@ -15,6 +23,8 @@ html, body {
 #header h1 {
     color: white;
     margin: 0px;
+    font-family: 'Anton', sans-serif;
+    font-size: 8vh;
 }
 
 #search {
