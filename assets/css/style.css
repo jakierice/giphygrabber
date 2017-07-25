@@ -38,6 +38,24 @@ html, body {
     overflow-y: scroll;
 }
 
+#directions h2 {
+    font-size: 8vh;
+    font-weight: bold;
+    text-align: center;
+}
+
+#directions h3 {
+    font-size: 6vh;
+    font-style: italic;
+    text-align: center;
+}
+
+#directions h4 {
+    font-size: 4vh;
+    font-weight: bold;
+    text-align: center;
+}
+
 #buttonsHolder {
     background-color: #8c1a0b;
     margin: 0px;
