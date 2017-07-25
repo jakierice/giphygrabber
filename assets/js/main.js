@@ -34,7 +34,7 @@ $('#searchSubmit').click(function (event) {
 // $('.heroButton').click(function () {
 function getGifs(heroName) {
 
-    var queryURL = 'http://api.giphy.com/v1/gifs/search?api_key=dc6zaTOxFJmzC&limit=9&q=' + heroName;
+    var queryURL = 'https://api.giphy.com/v1/gifs/search?api_key=dc6zaTOxFJmzC&limit=9&q=' + heroName;
 
     $.ajax({
         url: queryURL,
